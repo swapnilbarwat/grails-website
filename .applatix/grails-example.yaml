@@ -45,5 +45,5 @@ steps:
   test:
     template: grails-example-base
     parameters:
-      CMD: "sh -c 'cd /src'"
+      CMD: "sh -c 'cd'"
       checkout_step: "%%step.checkout.id%%"
